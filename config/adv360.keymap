@@ -32,16 +32,6 @@
         flavor = "balanced";
         bindings = <&kp>, <&kp>;
     };
-
-    mt: mod-tap {
-        compatible = "zmk,behavior-hold-tap";
-        label = "MOD_TAP";
-        #binding-cells = <2>;
-        tapping-term-ms = <400>;
-        quick_tap_ms = <175>;
-        flavor = "balanced";
-        bindings = <&kp>, <&kp>;
-    };
   };
 
     keymap {
