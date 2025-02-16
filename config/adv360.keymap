@@ -20,7 +20,6 @@
     require-prior-idle-ms = <0>;
     quick-tap-ms = <0>;
     tapping-term-ms = <300>;
-    hold-trigger-on-release;
     hold-while-undecided;
 };
 
@@ -39,7 +38,6 @@
 
             quick-tap-ms = <0>;
             require-prior-idle-ms = <0>;
-            hold-trigger-on-release;
             hold-while-undecided;
         };
     };
