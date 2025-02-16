@@ -19,6 +19,7 @@
     require-prior-idle-ms = <125>;
     quick-tap-ms = <0>;
     tapping-term-ms = <300>;
+    bindings = <&key_repeat>, <&kp>;
 };
 
 / {
