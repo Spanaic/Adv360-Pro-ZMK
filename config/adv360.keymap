@@ -16,11 +16,9 @@
 #include <dt-bindings/zmk/rgb.h>
 
 &lt {
-    flavor = "tap-unless-interrupted";
-    require-prior-idle-ms = <0>;
+    require-prior-idle-ms = <300>;
     quick-tap-ms = <0>;
-    tapping-term-ms = <300>;
-    hold-while-undecided;
+    tapping-term-ms = <700>;
 };
 
 / {
@@ -32,13 +30,12 @@
             compatible = "zmk,behavior-hold-tap";
             label = "HOMEROW_MODS";
             #binding-cells = <2>;
-            tapping-term-ms = <300>;
+            tapping-term-ms = <700>;
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
 
             quick-tap-ms = <0>;
-            require-prior-idle-ms = <0>;
-            hold-while-undecided;
+            require-prior-idle-ms = <300>;
         };
     };
 
