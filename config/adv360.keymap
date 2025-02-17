@@ -16,7 +16,7 @@
 #include <dt-bindings/zmk/rgb.h>
 
 &lt {
-    require-prior-idle-ms = <125>;
+    require-prior-idle-ms = <50>;
     quick-tap-ms = <150>;
     tapping-term-ms = <300>;
 };
@@ -35,7 +35,7 @@
             bindings = <&kp>, <&kp>;
 
             quick-tap-ms = <150>;
-            require-prior-idle-ms = <125>;
+            require-prior-idle-ms = <50>;
         };
     };
 
